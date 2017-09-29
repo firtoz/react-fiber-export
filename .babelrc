@@ -4,7 +4,8 @@
     "flow"
   ],
   "ignore": [
-    "src/__tests__"
+    "src/fiber/__tests__",
+    "src/utils/__tests__"
   ],
   "plugins": [
     "transform-class-properties",
@@ -12,6 +13,18 @@
       "transform-object-rest-spread",
       {
         "useBuiltIns": true
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src/fiber",
+          "./src/fiber/isomorphic",
+          "./src/utils"
+        ],
+        "alias": {
+        }
       }
     ]
   ]
