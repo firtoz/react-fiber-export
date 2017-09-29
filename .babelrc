@@ -4,8 +4,11 @@
     "flow"
   ],
   "ignore": [
-    "src/fiber/__tests__",
-    "src/utils/__tests__"
+    "src/renderers/fiber/__tests__",
+    "src/renderers/shared/event/__tests__",
+    "src/renderers/shared/event/eventPlugins/__tests__",
+    "src/renderers/utils/__tests__",
+    "src/shared/utils/__tests__"
   ],
   "plugins": [
     "transform-class-properties",
@@ -19,9 +22,12 @@
       "module-resolver",
       {
         "root": [
-          "./src/fiber",
-          "./src/fiber/isomorphic",
-          "./src/utils"
+          "./src/renderers/fiber",
+          "./src/renderers/fiber/isomorphic",
+          "./src/renderers/shared",
+          "./src/renderers/shared/event",
+          "./src/renderers/shared/event/eventPlugins",
+          "./src/renderers/utils"
         ],
         "alias": {
         }
