@@ -4,6 +4,7 @@
   "description": "This is for me to use in a custom renderer",
   "main": "index.js",
   "scripts": {
+    "build": "babel src/ -d lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/toxicFork/react-fiber-export/issues"
   },
-  "homepage": "https://github.com/toxicFork/react-fiber-export#readme"
+  "homepage": "https://github.com/toxicFork/react-fiber-export#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
+  }
 }

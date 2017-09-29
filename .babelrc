@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "react",
+    "flow"
+  ],
+  "ignore": [
+    "src/__tests__"
+  ],
+  "plugins": [
+    "transform-class-properties",
+    [
+      "transform-object-rest-spread",
+      {
+        "useBuiltIns": true
+      }
+    ]
+  ]
+}
