@@ -22,6 +22,8 @@
       "module-resolver",
       {
         "root": [
+          "./src/shared",
+          "./src/shared/utils",
           "./src/renderers/fiber",
           "./src/renderers/fiber/isomorphic",
           "./src/renderers/shared",
