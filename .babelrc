@@ -4,10 +4,10 @@
     "flow"
   ],
   "ignore": [
-    "src/renderers/fiber/__tests__",
-    "src/renderers/shared/event/__tests__",
-    "src/renderers/shared/event/eventPlugins/__tests__",
-    "src/renderers/utils/__tests__",
+    "src/renderers/shared/fiber/__tests__",
+    "src/renderers/shared/shared/event/__tests__",
+    "src/renderers/shared/shared/event/eventPlugins/__tests__",
+    "src/renderers/shared/utils/__tests__",
     "src/shared/utils/__tests__"
   ],
   "plugins": [
@@ -24,12 +24,13 @@
         "root": [
           "./src/shared",
           "./src/shared/utils",
-          "./src/renderers/fiber",
-          "./src/renderers/fiber/isomorphic",
           "./src/renderers/shared",
-          "./src/renderers/shared/event",
-          "./src/renderers/shared/event/eventPlugins",
-          "./src/renderers/utils"
+          "./src/renderers/shared/fiber",
+          "./src/renderers/shared/fiber/isomorphic",
+          "./src/renderers/shared/shared",
+          "./src/renderers/shared/shared/event",
+          "./src/renderers/shared/shared/event/eventPlugins",
+          "./src/renderers/shared/utils"
         ],
         "alias": {
         }
