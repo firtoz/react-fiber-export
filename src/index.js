@@ -1,9 +1,5 @@
-import * as ReactFiberReconciler from './renderers/shared/fiber/ReactFiberReconciler';
-import * as ReactDOMFrameScheduling from './renderers/shared/ReactDOMFrameScheduling';
-import * as ReactFiberDevToolsHook from './renderers/shared/fiber/ReactFiberDevToolsHook';
+const ReactFiberReconciler = require('./renderers/shared/fiber/ReactFiberReconciler');
+const ReactDOMFrameScheduling = require('./renderers/shared/ReactDOMFrameScheduling');
+const ReactFiberDevToolsHook = require('./renderers/shared/fiber/ReactFiberDevToolsHook');
 
-export {
-  ReactFiberReconciler,
-  ReactDOMFrameScheduling,
-  ReactFiberDevToolsHook,
-};
+module.exports = { ReactFiberReconciler, ReactDOMFrameScheduling, ReactFiberDevToolsHook };
