@@ -2,7 +2,7 @@
   "name": "react-fiber-export",
   "version": "1.0.0",
   "description": "This is for me to use in a custom renderer",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel src/ -d lib/",
     "test": "echo \"Error: no test specified\" && exit 1"
