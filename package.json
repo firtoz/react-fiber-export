@@ -32,6 +32,6 @@
     "fbjs": "0.8.16"
   },
   "peerDependencies": {
-    "@types/react": "latest"
+    "@types/react": "16.0.9"
   }
 }
