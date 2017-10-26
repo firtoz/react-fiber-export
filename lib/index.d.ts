@@ -1,4 +1,4 @@
-import * as React from "@types/react";
+import * as React from "react";
 
 export interface IReactFiberRendererConfig {
   scheduleDeferredCallback: any;
