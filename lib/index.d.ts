@@ -63,7 +63,7 @@ export interface IReactFiberRendererConfig {
   removeChildFromContainer(container: any, child: any): void;
 }
 
-enum TypeOfWork {
+declare enum TypeOfWork {
   IndeterminateComponent = 0, // Before we know whether it is functional or class
   FunctionalComponent = 1,
   ClassComponent = 2,
@@ -77,7 +77,7 @@ enum TypeOfWork {
   Fragment = 10,
 }
 
-enum PriorityLevel {
+declare enum PriorityLevel {
   NoWork, // No work is pending.
   SynchronousPriority, // For controlled text inputs. Synchronous side-effects.
   TaskPriority, // Completes at the end of the current tick.
@@ -111,12 +111,12 @@ interface IUpdateQueue {
   isProcessing?: boolean;
 }
 
-enum TypeOfInternalContext {
+declare enum TypeOfInternalContext {
   NoContext = 0,
   AsyncUpdates = 1,
 }
 
-enum TypeOfSideEffect {
+declare enum TypeOfSideEffect {
   // Don't change these two values:
   NoEffect = 0, //           0b00000000
   PerformedWork = 1, //      0b00000001
