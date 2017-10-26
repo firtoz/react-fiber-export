@@ -29,7 +29,9 @@
     "babel-preset-react": "^6.24.1"
   },
   "dependencies": {
-    "fbjs": "0.8.16",
+    "fbjs": "0.8.16"
+  },
+  "peerDependencies": {
     "@types/react": "latest"
   }
 }
