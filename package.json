@@ -1,6 +1,6 @@
 {
   "name": "react-fiber-export",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "This is for me to use in a custom renderer",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
