@@ -244,7 +244,7 @@ interface IFiberRoot {
   pendingContext: object | null;
 }
 
-interface IRenderer {
+export interface IRenderer {
   createContainer(container: any): any;
 
   unbatchedUpdates(callback: () => void): any;
